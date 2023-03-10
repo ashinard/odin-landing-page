@@ -102,6 +102,10 @@ body {
     padding-top: 12px;
    }
 
+   .cat > p {
+    padding: 4px 48px
+   }
+
    .footer {
     text-align: center;
     background-color: #1F2937;
