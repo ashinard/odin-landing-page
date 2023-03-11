@@ -23,6 +23,10 @@ body {
     
     .info {
     padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     }
     
     .logo{
@@ -48,15 +52,9 @@ body {
     }
 
     #opener {
-        font-size: 48px;
-        font-weight: bolder;
-        color: #F9FAF8;
-        }
-    
-    .info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
     }
     
     p {
@@ -76,11 +74,12 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-top: 12px;
     }
 
     img {
-        height: 300px;
-        width: 600px;
+    height: 300px;
+    width: 600px;
     }
     
    .cat-info {
@@ -99,11 +98,23 @@ body {
    .cats{
     flex: 1;
     display: flex;
+    flex-wrap: wrap;
     padding-top: 12px;
+    padding-left: 132px;
+    padding-right: 132px;
    }
 
    .cat > p {
-    padding: 4px 48px
+    padding: 0px 48px 2px;
+    color: #1F2937;
+   }
+
+   .cat > img {
+    width: 250px;
+    height: 250px;
+    border: #3882f6;
+    border-style: solid;
+    border-radius: 6px;
    }
 
    .footer {
