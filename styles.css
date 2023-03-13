@@ -1,5 +1,5 @@
 
-body {
+    body {
     display: flexbox;
     flex-direction: column;
     margin: 0px;
@@ -117,6 +117,64 @@ body {
     border-radius: 6px;
    }
 
+   .quote {
+    background-color: #E5E7EB;
+    padding: 100px 0px;
+   }
+
+   #phrase, #signature {
+    padding-left: 400px;
+    padding-right: 400px;
+   }
+
+   #phrase {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+   }
+
+   #signature {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-right: 450px;
+   }
+
+   .sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #sign-up-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    margin: 100px 350px;
+    border-radius: 6px;
+   }
+
+   #sign-up-box > #text-box {
+    padding: 12px 0px 12px 150px
+   }
+
+   #sign-up-box > #subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #text-box > h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-bottom: 0px;
+   }
+
+   #text-box > p {
+    margin-top: 0px;
+   }
    .footer {
     text-align: center;
     background-color: #1F2937;
