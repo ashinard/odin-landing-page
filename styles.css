@@ -66,8 +66,10 @@
     padding: 4px 16px;
     background-color: #3882f6;
     border-radius: 6px;
+    border-color: #3882f6;
     color: #F9FAF8;
     font-weight: bold;
+    padding: 8px 16px;
     }
     
     .picture {
@@ -174,6 +176,11 @@
 
    #text-box > p {
     margin-top: 0px;
+   }
+
+   #subscribe > button {
+   padding: 8px 16px; 
+   border-color: #F9FAF8;
    }
    .footer {
     text-align: center;
